@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:vermit/motor_sqs/trommel.dart'; //trommel display
-import 'package:vermit/motor_sqs/separator.dart'; //separator display
+import 'package:vermit/motor_sqs/conveyor.dart'; //Conveyor display
+import 'package:vermit/motor_sqs/separator.dart'; //Separator display
 
 class MotorsPage extends StatelessWidget {
   const MotorsPage({super.key});
@@ -41,7 +41,7 @@ class MotorsPage extends StatelessWidget {
                         ),
                       ),
                     ),
-                    const Trommel(),
+                    const Conveyor(),
                     const Separator(),
                   ],
                 ),
